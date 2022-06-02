@@ -1,0 +1,188 @@
+<!DOCUMENT html>
+<html>
+    <head>
+        <!-- Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+        <style>
+            @media print {
+                .pagebreak { page-break-before: always; } /* page-break-after works, as well */
+            }
+            .line-height-30 {
+                line-height: 30px;    
+            }
+            .td-h tr {
+                /* height: 50px; */
+            }
+            /*body {
+                height: 3508px;
+                width: 2480px;
+            }*/
+            .p-details {
+                width: 50vw;
+            }
+            .main-image {
+                width: 200px;
+                height: auto;
+            }
+            .flex-spacer{
+                flex-shrink:0;
+                flex-grow:1;
+            }
+            .edu > div {
+                /* width: 25%; */
+            }
+            .p-prof {
+                /* page-break-after: always; */
+            }
+            hr {
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+            body {
+                /* background-image: url("bg.png");
+                background-repeat: no-repeat;
+                background-size: cover; */
+            }
+        </style>
+    </head>
+    <body>
+    <div class="container">
+        <!-- <h1 class="text-center m-4"><u><b>Curriculum Vitae</b></u></h1> -->
+        <h1><b>Dehemi Weerakkody</b></h1>
+        <h4>Undergraduate at SLIIT</h4>
+        <br>
+        <div class="d-flex flex-row">
+            <table class="table p-details">
+                <!-- <tr>
+                    <td>Name :</td>
+                    <td>Dehemi Weerakkody</td>
+                </tr> -->
+                <tr>
+                    <td>Address :</td>
+                    <td>33/38, <br> Mawathgama, <br> Homagama. </td>
+                </tr>
+                <tr>
+                    <td>Mobile number :</td>
+                    <td>+94706672525 / +94779742080</td>
+                </tr>
+                <tr>
+                    <td>Email :</td>
+                    <td>dehemiweerakkodi2@gmail.com</td>
+                </tr>
+            </table>
+            <div class="flex-spacer"></div>
+            <img src="image.jpg" class="main-image"> 
+        </div>
+        <h2 class="p-prof">Personal Profile 🙋‍♂️</h2>
+        <table class="table td-h">
+            <tr>
+                <td> Name in full </td>
+                <td> Dehemi Kethaka Weerakkody </td>
+            </tr>
+            <tr>
+                <td> Date of birth </td>
+                <td> January 01<sup>th</sup> 2001 </td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>Male</td>
+            </tr>
+            <tr>
+                <td> Nationality </td>
+                <td> Sri Lankan </td>
+            </tr>
+            <tr>
+                <td> School </td>
+                <td> Isipathana College - Colombo 5</td>
+            </tr>
+        </table>
+        <h2> Education 🧮</h2>
+        <div class="d-flex flex-row edu">
+            <div>
+                <table class="table">
+                    <tr>
+                        <th>GCE Ordinary level</th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <td>A</td>
+                        <td>8</td>
+                    <tr>
+                        <td>C</td>
+                        <td>1</td>
+                    </tr>
+                </table>
+            </div>
+            <div>
+                <table class="table">
+                    <tr>
+                        <th>GCE Advance Level</th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <td>Physics</td>
+                        <td>S</td>
+                    </tr>
+                    <tr>
+                        <td>Maths</td>
+                        <td>S</td>
+                    </tr>
+                     <tr>
+                        <td>Chemistry</td>
+                        <td>S</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <ul>
+            <h5 class="text-center"> Currently following BSC. Information Technology 
+                Specializing at Software Engineering in <b>SLIIT</b></h5>
+        </ul>
+        <div class="text-center h5 w-100" style="color:crimson;">
+            Check out the next page for my Skills and side projects!
+        </div>
+        <div class="pagebreak"></div>
+        <h2 class="mt-5">Skills and Competencies 🐋</h2>
+        <ul class="line-height-30">
+            <li>Programming</li>
+            <ul>
+                <li><b>Go</b> - Familiar with the gin http framework</li>
+                <li><b>Python Scripting</b> -  Familiar with flask framework</li>
+                <li><b>Rust</b> - Basic knowledge of the rust framework - Still learning</li>
+                <li><b>C / C++</b> - Basic knowledge of the C and C++</li>
+                <li><b>Javascript / Typescript</b> - Familiar with React, Svelte, Pug, Node js, Express</li>
+                <li><b>Java</b> - Familiar with Spring Boot, Intellij IDE</li>
+                <li><b>HTML / CSS</b></li>
+            </ul>
+            <li>Experience in using <b>Git, Github</b></li>
+            <li><b>Docker</b> - Experience in building containers and deploying</li>
+            <li>Experience in using SSH and managing <b>Ubuntu / Debian</b> servers</li>
+            <li>Fluent in speaking and writing in English and Sinhala</li>
+            <li>Daily drives a <b>Arch</b> System</li>
+            <li>Maintains my own VM instances in <b>Linode, Oracle Cloud</b></li>
+        </ul>
+        <h2 class="mt-5">Side Projects 🚀</h2>
+        <ul>
+            <li>
+                <span class="h6">SLIIT Courseweb Notifications bot - </span><br />
+                <a href="https://github.com/stargazer39/SLIIT-Notifications/">https://github.com/stargazer39/SLIIT-Notifications/</a>
+            </li>
+            <br/>
+            <li>
+                <span class="h6">Eduscope downloader written in Go - </span><br />
+                <a href="https://github.com/stargazer39/eduscope-downloader">https://github.com/stargazer39/eduscope-downloader</a>
+            </li>
+            <br/>
+            <li>
+                <span class="h6">Chrome extension for SLIIT courseweb - </span><br />
+                <a href="https://github.com/stargazer39/SLIIT-Chrome-Extension">https://github.com/stargazer39/SLIIT-Chrome-Extension</a>
+            </li>
+            <br/>
+            <li>
+                <span class="h6">Wonder Lyrics Project - </span><br />
+                <a href="https://dehemi.com/">https://dehemi.com/</a>
+            </li>
+        </ul>
+    </div>
+<html>
